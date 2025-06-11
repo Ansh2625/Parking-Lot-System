@@ -20,3 +20,6 @@ Design a Parking Lot System with following Requirements: <br>
 
 ### Use Case Diagram <br>
 ![Use Case](Parking-Lot-System/diagrams/Usecase_Diagram.png) <br>
+
+### Class Diagram <br>
+![Class](Parking-Lot-System/diagrams/Class_Diagram.png)<br>
