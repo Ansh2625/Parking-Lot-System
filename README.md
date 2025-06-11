@@ -19,4 +19,4 @@ Design a Parking Lot System with following Requirements: <br>
 ## UML Diagrams <br>
 
 ### Use Case Diagram <br>
-![Use Case](diagrams/Usecase_Diagram.png) <br>
+![Use Case](Parking-Lot-System/diagrams/Usecase_Diagram.png) <br>
