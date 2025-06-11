@@ -15,3 +15,8 @@ Design a Parking Lot System with following Requirements: <br>
 - Generate parking tickets with duration tracking. <br>
 - Payment methods : Cash, Credit Card and UPI. <br>
 - Parking charges based on Hourly Rate. <br><br>
+
+## UML Diagrams <br>
+
+### Use Case Diagram <br>
+![Use Case](diagrams/Usecase_Diagram.png) <br>
