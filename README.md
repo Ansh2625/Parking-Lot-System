@@ -17,15 +17,15 @@ Design a Parking Lot System with following Requirements: <br>
 - Parking charges based on Hourly Rate. <br><br>
 
 ## (2) Folder Structure <br>
-├───.vscode
-├───diagrams
-└───src
-    ├───gates
-    ├───parkinglot
-    │   └───parkingspot
-    ├───payment
-    ├───vehicle
-    └───Main.java
+├───.vscode <br>
+├───diagrams <br>
+└───src <br>
+    ├───gates <br>
+    ├───parkinglot <br>
+    │   └───parkingspot <br>
+    ├───payment <br>
+    ├───vehicle <br>
+    └───Main.java <br>
 
 ## (3) UML Diagrams <br>
 
