@@ -4,19 +4,19 @@ public class VehicleFactory
 {
     public static Vehicle createVehicle(String vehicleType, String licensePlate)
     {
-        if(vehicleType.equals("Bike"))
+        if(vehicleType.equals("BIKE"))
         {
             return new BikeVehicle(licensePlate);
         }
-        else if(vehicleType.equals("Car"))
+        else if(vehicleType.equals("CAR"))
         {
             return new CarVehicle(licensePlate);
         }
-        else if(vehicleType.equals("Van"))
+        else if(vehicleType.equals("VAN"))
         {
             return new VanVehicle(licensePlate);
         }
-        else if(vehicleType.equals("Truck"))
+        else if(vehicleType.equals("TRUCK"))
         {
             return new TruckVehicle(licensePlate);
         }

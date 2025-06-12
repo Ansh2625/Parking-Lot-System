@@ -6,7 +6,7 @@ public class CarVehicle extends Vehicle
 
     public CarVehicle(String licensePlate)
     {
-        super(licensePlate,"Car");
+        super(licensePlate,"CAR");
     }
 
     public double getRate()
