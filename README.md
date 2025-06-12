@@ -30,3 +30,8 @@ Design a Parking Lot System with following Requirements: <br>
 - It provides a way to create objects without exposing the instantiation logic to the client. It promotes loose coupling by delegating the object creation to a specific class. <br>
 - In this project, Vehicle Factory is used to create instances of different types of vehicles (Bike, Car, Van, Truck) based on parking requirement. <br>
 - Advantage - Extensibility & Loose Coupling. <br>
+
+### Strategy Design Pattern <br>
+- It is used to define a group of interchangeable algorithms and choose one at runtime. <br>
+- In this project, PaymentStrategy is used to support multiple payment methods like Cash, CreditCard, UPI. PaymentService uses the chosen one at runtime. <br>
+- Advantage - Flexible & Interchangeable logic. <br>
