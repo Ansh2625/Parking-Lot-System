@@ -113,5 +113,8 @@ java -cp bin Main
 - **Add new Payment Methods**: Implement the ```PaymentStrategy.java``` interface. <br>
 - **Duration Calculation**: Use a ```Map<ParkingSpot,Ticket>``` to store tickets and calculate the duration automatically at exit gate instead of asking the user. <br> <br>
 
+## License <br>
+This project is open-source and available under the MIT License. <br><br>
+
 ## Author <br>
 Developed by Ansh Sharma. Contact, anshsharma2625@gmail.com. 
