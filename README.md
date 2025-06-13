@@ -99,3 +99,11 @@ java -cp bin Main
 6. **Interact with the System**: <br>
 - The system simulates parking operations. <br>
 - Check console logs for actions like ticket generation, parking spot allocation, and payments. <br> <br>
+
+## Features <br>
+- Multi-floor parking lot with entry and exit gates. <br>
+- Support different parking spot types (Bike, Car, Van and Truck). <br>
+- Dynamic Parking spot allocation. <br>
+- Ticket generation for parked vehicles. <br>
+- Payment processing via Cash, CrediCard, or UPI. <br>
+- Easily extendable and modular codebase. <br><br>
