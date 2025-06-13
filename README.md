@@ -65,7 +65,7 @@ Design a Parking Lot System with following Requirements: <br>
 
 ### Singleton Design Pattern <br>
 - It ensures that only one instance of the class is created in the entire application. Must handle Multithreading case. <br>
-- In this project, PaymentService is implemented as Singleton class to maintain a single instance of it across the system. <br>
+- In this project, PaymentService & ParkingLot is implemented as Singleton class to maintain a single instance of it across the system. <br>
 - Advantage - Shared instance, Global access. <br> <br>
 
 ## How to Run <br>
@@ -79,7 +79,6 @@ Design a Parking Lot System with following Requirements: <br>
 git clone https://github.com/Ansh2625/Parking-Lot-System.git 
 cd Parking-Lot-System
 ``` 
-<br>
 
 3. **Import the Project**: <br>
 - Open VS Code. <br>
@@ -96,7 +95,6 @@ cd Parking-Lot-System
 javac -d bin src/Main.java 
 java -cp bin Main
 ```
-<br>
 
 6. **Interact with the System**: <br>
 - The system simulates parking operations. <br>
