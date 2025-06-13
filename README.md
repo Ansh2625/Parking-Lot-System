@@ -109,6 +109,9 @@ java -cp bin Main
 - Easily extendable and modular codebase. <br><br>
 
 ## Future Improvements <br>
-- Add new Vehicle Types: Create a new class extending ```Vehicle.java```. <br>
-- Add new Payment Methods: Implement the ```PaymentStrategy.java``` interface. <br>
-- Duration Calculation: Use a ```Map<ParkingSpot,Ticket>``` to store tickets and calculate the duration automatically at exit gate instead of asking the user. <br>
+- **Add new Vehicle Types**: Create a new class extending ```Vehicle.java```. <br>
+- **Add new Payment Methods**: Implement the ```PaymentStrategy.java``` interface. <br>
+- **Duration Calculation**: Use a ```Map<ParkingSpot,Ticket>``` to store tickets and calculate the duration automatically at exit gate instead of asking the user. <br> <br>
+
+## Author <br>
+Developed by Ansh Sharma. Contact, anshsharma2625@gmail.com. 
