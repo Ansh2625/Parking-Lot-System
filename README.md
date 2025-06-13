@@ -75,7 +75,11 @@ Design a Parking Lot System with following Requirements: <br>
 - VS Code (recommended) or any Java-supported IDE. <br>
 
 2. **Clone the Repository**: <br>
-<pre> ```bash git clone https://github.com/Ansh2625/Parking-Lot-System.git cd Parking-Lot-System``` </pre>
+```bash
+git clone https://github.com/Ansh2625/Parking-Lot-System.git 
+cd Parking-Lot-System
+``` 
+<br>
 
 3. **Import the Project**: <br>
 - Open VS Code. <br>
@@ -88,7 +92,11 @@ Design a Parking Lot System with following Requirements: <br>
 5. **Run the Application**: <br>
 - Right-click on Main.java. <br>
 - Alternatively, use the terminal: <br>
-<pre> ```bash javac -d bin src/Main.java java -cp bin Main``` </pre>
+```bash
+javac -d bin src/Main.java 
+java -cp bin Main
+```
+<br>
 
 6. **Interact with the System**: <br>
 - The system simulates parking operations. <br>
