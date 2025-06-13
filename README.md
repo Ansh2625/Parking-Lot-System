@@ -2,7 +2,7 @@
 
 A LLD implementation of real world parking lot management system using OOPS, SOLID principles and Design patterns. <br> <br>
 
-## (1) Problem Statement <br>
+## Problem Statement <br>
 
 Design a Parking Lot System with following Requirements: <br>
 
@@ -16,7 +16,7 @@ Design a Parking Lot System with following Requirements: <br>
 - Payment methods : Cash, Credit Card and UPI. <br>
 - Parking charges based on Hourly Rate. <br><br>
 
-## (2) Project Structure <br>
+## Project Structure <br>
 
 #### parkinglot package <br>
 - ParkingLot.java: Manages floors, entry gates, exit gates, and parking spot booking. A singleton class.<br>
@@ -41,9 +41,9 @@ Design a Parking Lot System with following Requirements: <br>
 - ExitGate.java: Manages vehicle exit, calculates parking fees, and initiates payment processing. <br>
 
 #### Main.java <br>
-- Entry point of application. Contains the main method to initialise and run the parking lot system. <br>
+- Entry point of application. Contains the main method to initialise and run the parking lot system. <br><br>
 
-## (3) UML Diagrams <br>
+## UML Diagrams <br>
 
 ### Use Case Diagram <br>
 ![Use Case](Parking-Lot-System/diagrams/Usecase_Diagram.png) <br>
@@ -51,7 +51,7 @@ Design a Parking Lot System with following Requirements: <br>
 ### Class Diagram <br>
 ![Class](Parking-Lot-System/diagrams/Class_Diagram.png)<br><br>
 
-## (4) Design Patterns used <br>
+## Design Patterns used <br>
 
 ### Factory Design Pattern <br>
 - It provides a way to create objects without exposing the instantiation logic to the client. It promotes loose coupling by delegating the object creation to a specific class. <br>
@@ -66,4 +66,30 @@ Design a Parking Lot System with following Requirements: <br>
 ### Singleton Design Pattern <br>
 - It ensures that only one instance of the class is created in the entire application. Must handle Multithreading case. <br>
 - In this project, PaymentService is implemented as Singleton class to maintain a single instance of it across the system. <br>
-- Advantage - Shared instance, Global access. <br>
+- Advantage - Shared instance, Global access. <br> <br>
+
+## How to Run <br>
+
+1. **Prerequisites**: <br>
+- Java 17 or later installed. <br>
+- VS Code (recommended) or any Java-supported IDE. <br>
+
+2. **Clone the Repository**: <br>
+<pre> ```bash git clone https://github.com/Ansh2625/Parking-Lot-System.git cd Parking-Lot-System``` </pre>
+
+3. **Import the Project**: <br>
+- Open VS Code. <br>
+- Select File > Open and choose the project's root folder (Parking-Lot-System). <br>
+
+4. **Build the Project**: <br>
+- Open Main.java file inside src. <br>
+- Click the Run button on top, or right-click and choose Run java. <br>
+
+5. **Run the Application**: <br>
+- Right-click on Main.java. <br>
+- Alternatively, use the terminal: <br>
+<pre> ```bash javac -d bin src/Main.java java -cp bin Main``` </pre>
+
+6. **Interact with the System**: <br>
+- The system simulates parking operations. <br>
+- Check console logs for actions like ticket generation, parking spot allocation, and payments. <br> <br>
