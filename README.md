@@ -16,16 +16,32 @@ Design a Parking Lot System with following Requirements: <br>
 - Payment methods : Cash, Credit Card and UPI. <br>
 - Parking charges based on Hourly Rate. <br><br>
 
-## (2) Folder Structure <br>
-├───.vscode <br>
-├───diagrams <br>
-└───src <br>
-    ├───gates <br>
-    ├───parkinglot <br>
-    │   └───parkingspot <br>
-    ├───payment <br>
-    ├───vehicle <br>
-    └───Main.java <br>
+## (2) Project Structure <br>
+
+#### parkinglot package <br>
+- ParkingLot.java: Manages floors, entry gates, exit gates, and parking spot booking. A singleton class.<br>
+- ParkingFloor.java: Manages parking spots and updates its availability. <br>
+- ParkingSpot.java: Abstract representation of a parking spot.<br>
+- BikeParkingSpot.java, CarParkingSpot.java, OtherParkingSpot.java: Specific implementations for parking spots. <br>
+- Ticket.java: Represents a parking ticket issued to a vehicle. <br>
+
+#### vehicle package <br>
+- Vehicle.java: Abstract class for vehicles. <br>
+- BikeVehicle.java, CarVehicle.java, OtherVehicle.java: Specific implementations for vehicles. <br>
+- VehicleFactory.java: Factory class to create vehicle instances based on vehicle type. <br>
+
+#### payment package <br>
+- Payment.java: Manages payment logic. <br>
+- PaymentStrategy.java: Strategy pattern for payment processing. <br>
+- PaymentService.java: Selects and execute the appropriate payment strategy. A singleton class. <br>
+- CashPayment.java, CreditCardPayment.java, UPIPayment.java: Specific implementations for payment methods. <br>
+
+#### gates package <br>
+- EntranceGate.java: Handles vehicle entry, ticket generation, and parking spot allocation. <br> 
+- ExitGate.java: Manages vehicle exit, calculates parking fees, and initiates payment processing. <br>
+
+#### Main.java <br>
+- Entry point of application. Contains the main method to initialise and run the parking lot system. <br>
 
 ## (3) UML Diagrams <br>
 
