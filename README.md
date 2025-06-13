@@ -100,6 +100,10 @@ java -cp bin Main
 - The system simulates parking operations. <br>
 - Check console logs for actions like ticket generation, parking spot allocation, and payments. <br> <br>
 
+## Test Run <br>
+- **Input File**: [Testcase.txt](./Testcase.txt)<br>
+- **Output File**: [Sample_Output.txt](./Sample_Output.txt)<br><br>
+
 ## Features <br>
 - Multi-floor parking lot with entry and exit gates. <br>
 - Support different parking spot types (Bike, Car, Van and Truck). <br>
