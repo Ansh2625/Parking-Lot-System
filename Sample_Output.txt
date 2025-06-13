@@ -1,0 +1,109 @@
+============================================
+       Welcome to Parking Lot System       
+============================================
+
+**************************************
+Please choose an option from below
+1. Park a vehicle
+2. Vacate a Spot
+3. Exit the System
+**************************************
+1
+Enter the vehicle licensePlate: 
+b1
+Enter the vehicle type: 
+Bike
+
+Vehicle successfully parked at spot: 1
+Vehicle Parked Successfully at spot: 1
+Ticket Generated
+Vehicle: b1
+Spot: 1
+Entry Time: 2025-06-13T15:22:43.089910
+
+
+**************************************
+Please choose an option from below
+1. Park a vehicle
+2. Vacate a Spot
+3. Exit the System
+**************************************
+1
+Enter the vehicle licensePlate: 
+c1
+Enter the vehicle type: 
+Car
+
+Vehicle successfully parked at spot: 3
+Vehicle Parked Successfully at spot: 3
+Ticket Generated
+Vehicle: c1
+Spot: 3
+Entry Time: 2025-06-13T15:23:03.819764
+
+
+**************************************
+Please choose an option from below
+1. Park a vehicle
+2. Vacate a Spot
+3. Exit the System
+**************************************
+1
+Enter the vehicle licensePlate: 
+b2
+Enter the vehicle type: 
+Bike
+
+Vehicle successfully parked at spot: 2
+Vehicle Parked Successfully at spot: 2
+Ticket Generated
+Vehicle: b2
+Spot: 2
+Entry Time: 2025-06-13T15:23:11.194002
+
+
+**************************************
+Please choose an option from below
+1. Park a vehicle
+2. Vacate a Spot
+3. Exit the System
+**************************************
+1
+Enter the vehicle licensePlate: 
+b3
+Enter the vehicle type: 
+Bike
+
+No parking spot available for BIKE
+
+**************************************
+Please choose an option from below
+1. Park a vehicle
+2. Vacate a Spot
+3. Exit the System
+**************************************
+2
+Enter the spot number to vacate: 
+1
+Enter number of hours the vehicle stayed:
+10
+
+Total Fee: 50.0
+Choose payment method:
+1. Cash
+2. Credit Card
+3. UPI
+1
+Processing cash payment of $50.0
+BIKE vacated the spot: 1
+Spot vacant Successfully
+
+
+**************************************
+Please choose an option from below
+1. Park a vehicle
+2. Vacate a Spot
+3. Exit the System
+**************************************
+3
+Thank you for using the Parking Lot System.
