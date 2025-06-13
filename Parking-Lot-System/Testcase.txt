@@ -1,0 +1,59 @@
+# --------------------------------------------
+# Parking Lot System - Sample Test Case Script
+# --------------------------------------------
+
+Welcome to Parking Lot System
+
+**************************************
+Please choose an option from below
+1. Park a vehicle
+2. Vacate a Spot
+3. Exit the System
+**************************************
+
+Choose 1, 2 or 3
+
+# -------------------------
+# Input Format Instructions
+# -------------------------
+Park Vehicle:
+    License Plate
+    Vehicle Type (Bike, Car, etc.)
+
+Vacate Spot:
+    Spot Number
+    Number of Hours Stayed
+    Payment Method (1 - Cash, 2 - CreditCard, 3 - UPI)
+
+# -----------------
+# Test Case Begins
+# -----------------
+
+# Park a Bike
+1
+b1License
+Bike
+
+# Park another Bike
+1
+b2License
+Bike
+
+# Park a Car
+1
+c1License
+Car
+
+# Park another Bike [Should fail - max 2 bike spots]
+1
+b3License
+Bike
+
+# Vacate a Bike Spot (spot 1, stayed 10 hours, payment via UPI)
+2
+1
+10
+3
+
+# Exit the System
+3
