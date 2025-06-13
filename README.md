@@ -82,14 +82,14 @@ cd Parking-Lot-System
 
 3. **Import the Project**: <br>
 - Open VS Code. <br>
-- Select File > Open and choose the project's root folder (Parking-Lot-System). <br>
+- Select ```File > Open``` and choose the project's root folder (Parking-Lot-System). <br>
 
 4. **Build the Project**: <br>
-- Open Main.java file inside src. <br>
+- Open ```Main.java``` file inside src. <br>
 - Click the Run button on top, or right-click and choose Run java. <br>
 
 5. **Run the Application**: <br>
-- Right-click on Main.java. <br>
+- Right-click on ```Main.java```. <br>
 - Alternatively, use the terminal: <br>
 ```bash
 javac -d bin src/Main.java 
